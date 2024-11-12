@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 document.title = "User management";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       name: "David",
       users: [
